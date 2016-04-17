@@ -1,0 +1,205 @@
+
+body{
+    font-family: "Droid Serif", serif;
+}
+
+div{
+    margin: 5px;
+    border: 1px dotted gray;
+}
+
+#Header{
+    text-align: center;
+    background-color: #c0c0c0;
+}
+
+#Menu{
+    padding-top: 10px;
+    text-align: center;
+    background-color: #336699;
+}
+#container {
+    text-align: center;
+    background-color: #EECF20;
+}
+
+#Sidebar{
+    width: 15%;
+    display: inline-block;
+    background-color: #336699;
+    text-align: center;
+}
+
+#Main{
+    width: 80%;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    background-color:#c0c0c0;
+    border: 25px solid #336699;
+    text-align: left;
+}
+
+#Footer{
+    padding: 20px;
+    background-color: #336699;
+    text-align: center;
+}
+
+.button {
+    padding: 10px;  
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #4D8A00;
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #EECF20;
+}
+/*I want the buttons to move to the left as the window width decreases - how do I do that? */
+.sidebutton {
+    display: block;
+    padding: 10px;  
+    border-radius: 5px;
+    background-color: #4D8A00;
+    color: black;
+    text-decoration: none;
+    max-width: 90%;
+    margin: 10px 20px;
+    position:relative;
+    left: -20px;    
+}
+
+.sidebutton:hover {
+    color: white;
+    background-color: #EECF20;
+}
+
+a{
+    text-decoration: none;
+    font-family: Lora, serif;
+}
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: olivedrab;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+/* selected link */
+a:active {
+    color: firebrick;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Lora, serif;
+}
+
+h2 {
+    font-family: Lora, serif;
+}
+
+h3 {
+    font-family: Lora, serif;
+}
+aside li {
+    margin: 5px 0px;
+}
+
+figure {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    left: 20px; 
+}
+/*I set a min-height and min-width for the images so that the sidebar stays a certain size */
+img{
+    width: 80%;
+    min-height: 100px;
+    min-width:  100px;
+    border: 5px solid #EECF20
+}
+
+footer nav li{
+    display: inline-block;
+    margin: 3px;
+}
+
+footer nav a {
+    color: #4D8A00;
+    text-decoration: none;
+    font-family: Lora, serif;
+}
+
+footer nav a:visited {
+    color: #4D8A00;
+}
+
+footer nav a:hover {
+    color: #EECF20;
+}
+
+#Building {
+    width: 80%;
+    text-align: center;
+}
+
+#Setting {
+    width: 80%;
+    text-align: center;
+}
+
+.section {
+    width: 80%;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    background-color:#c0c0c0;
+    border: 25px solid #336699;
+    text-align: left;
+    margin:10px;
+}
+
+/*
+li{
+    padding: 20px;  
+    display: inline-block;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+nav li{
+    margin: 5px;
+}
+
+#Sidebar li{
+    position: relative;
+    margin-left: -40px;
+}
+*/
+
+#logo {
+    width: 80%;
+    height: 80%;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+
