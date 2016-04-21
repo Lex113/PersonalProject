@@ -51,7 +51,7 @@ div{
     display: inline-block;
     border-radius: 5px;
     background-color: #4D8A00;
-    color: black;
+    color: #EECF20;
     text-decoration: none;
     margin: 0px 10px;
 }
@@ -66,7 +66,7 @@ div{
     padding: 10px;  
     border-radius: 5px;
     background-color: #4D8A00;
-    color: black;
+    color: #EECF20;
     text-decoration: none;
     max-width: 90%;
     margin: 10px 20px;
@@ -141,14 +141,14 @@ footer nav li{
     margin: 3px;
 }
 
-footer nav a {
+footer nav a:link {
     color: #4D8A00;
     text-decoration: none;
     font-family: Lora, serif;
 }
 
 footer nav a:visited {
-    color: #4D8A00;
+   color: #EECF20; 
 }
 
 footer nav a:hover {
@@ -176,6 +176,10 @@ footer nav a:hover {
     margin:10px;
 }
 
+#calendar {
+    text-align: center;
+}
+
 /*
 li{
     padding: 20px;  
@@ -192,7 +196,7 @@ nav li{
     position: relative;
     margin-left: -40px;
 }
-*/
+
 
 #logo {
     width: 80%;
@@ -200,6 +204,7 @@ nav li{
     margin: 5px;
     text-align: center;
 }
+*/
 /*just a comment for git*/
 
 
