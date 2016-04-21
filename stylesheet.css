@@ -178,6 +178,8 @@ footer nav a:hover {
 
 #calendar {
     text-align: center;
+    margin: auto;
+    width: 70%;
 }
 
 /*
